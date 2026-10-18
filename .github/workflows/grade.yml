@@ -192,8 +192,8 @@ jobs:
                       "❌ No valid activity directories were found.\n\n"
                   )
                   file.write(
-                  "An activity must follow the Pxxx_* or Lxxx_* "
-                  "convention and contain src/ and tests/.\n"
+                  "An activity must follow the `Pxxx_*` or `Lxxx_*` "
+                  "convention and contain `src/` and `tests/`.\n"
                   )
               else:
                   file.write("| Activity | Result |\n")
@@ -207,7 +207,7 @@ jobs:
                       )
 
                       file.write(
-                          f"| {activity} | {status} |\n"
+                          f"| `{activity}` | {status} |\n"
                       )
 
                   file.write("\n")
